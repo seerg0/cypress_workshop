@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "json-server"
+		},
+		{
+			"path": "cypress"
+		},
+		{
+			"path": "react-app"
+		}
+	],
+	"settings": {}
+}

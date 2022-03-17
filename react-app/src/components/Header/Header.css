@@ -1,0 +1,35 @@
+.HeaderContainer {
+  width: 100%;
+  background: #c4c2c2;
+  height: 60px;
+  /* justify-content: end; */
+}
+
+.Header {
+  display: flex;
+  padding: 2px 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.AccountInfo {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+.AccountInfo > a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.AccountInfo > a > img {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 0 10px 0 10px;
+}
