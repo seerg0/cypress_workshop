@@ -7,6 +7,7 @@ import Profile from "./pages/Profile/Profile";
 import Header from "./components/Header/Header";
 import Logout from "./pages/Logout/Logout";
 import Login from "./pages/Login/Login";
+import Footer from "./components/Footer/Footer";
 
 // export const UserContext = React.createContext<UserDataType | null>(null);
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/articles" element={<Articles />} />
       </Routes>
+      {/* <Footer /> */}
     </div>
   );
 }

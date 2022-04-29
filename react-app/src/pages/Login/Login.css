@@ -1,0 +1,10 @@
+.Error {
+  color: red;
+  height: 50px;
+
+  background-color: pink;
+
+  border-color: red;
+  border-radius: 2px;
+  border-width: 5px;
+}

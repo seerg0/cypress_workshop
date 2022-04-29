@@ -1,4 +1,8 @@
 {
     "experimentalStudio": true,
-    "baseUrl": "http://localhost:3000"
+    "baseUrl": "http://localhost:3009",
+    "env": {
+        "email": "admin@admin.ru",
+        "password": "admin"
+    }
 }

@@ -6,6 +6,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { UserData } from "../../store/User/types";
 import { setUserData } from "../../store/User/slice";
 import { selectUserData } from "../../store/User/selectors";
+import "./Login.css";
 
 async function loginUser(credentials: { email: string; password: string }) {
   return fetch("http://localhost:3010/login", {
@@ -15,12 +16,16 @@ async function loginUser(credentials: { email: string; password: string }) {
     },
     body: JSON.stringify(credentials),
   }).then(async (data) => {
+    if (data.status !== 200) {
+      throw new Error(await data.json());
+    }
     const body: { accessToken: string; user: UserDataType } = await data.json();
     return body;
   });
 }
 
 const Login = () => {
+  const [error, setError] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -29,12 +34,16 @@ const Login = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const authData = await loginUser({
-      email,
-      password,
-    });
+    try {
+      const authData = await loginUser({
+        email,
+        password,
+      });
 
-    dispatch(setUserData(authData));
+      dispatch(setUserData(authData));
+    } catch (err: any) {
+      setError(err.message);
+    }
   };
 
   if (userData?.accessToken) {
@@ -44,6 +53,11 @@ const Login = () => {
   return (
     <div className="login-wrapper">
       <h1>Please Log In</h1>
+      {error && (
+        <>
+          <div className="Error">{error}</div>
+        </>
+      )}
       <form onSubmit={handleSubmit}>
         <label>
           <p>Email</p>

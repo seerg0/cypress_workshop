@@ -17,63 +17,16 @@
       "title": "Cupidatat ipsum ut cillum fugiat laboris laborum officia.",
       "content": "Incididunt ut sint ullamco labore enim esse do occaecat occaecat. Qui proident voluptate velit adipisicing voluptate est elit. Dolor reprehenderit excepteur pariatur ipsum commodo anim. Veniam cupidatat incididunt duis veniam esse culpa minim consequat anim. Qui ea deserunt ex esse excepteur nulla aliquip ullamco magna duis.",
       "image": "https://picsum.photos/id/3/300/200"
-    },
-    {
-      "id": 4,
-      "title": "Eiusmod occaecat velit ea aliquip dolor.",
-      "content": "Eu nulla est adipisicing incididunt veniam excepteur ullamco exercitation minim duis aute in duis. Anim aliquip qui deserunt est ullamco commodo non labore sunt consectetur ullamco aliquip anim. Est ex commodo veniam qui amet laborum tempor do. Consequat labore labore eu do aliqua cillum proident.",
-      "image": "https://picsum.photos/id/4/300/200"
-    },
-    {
-      "id": 5,
-      "title": "Eiusmod ex eu aute Lorem laborum consequat culpa culpa aute occaecat reprehenderit laborum.",
-      "content": "In minim est ullamco deserunt velit Lorem ipsum sint qui officia occaecat eiusmod. Eiusmod cillum et ex deserunt anim dolore esse incididunt fugiat aliquip aliquip amet laboris fugiat. Quis dolore elit aliqua proident commodo est elit. Eu aliquip dolor id nisi excepteur commodo nisi excepteur cillum in. Amet ea aliquip id proident do nulla excepteur sint occaecat. Excepteur esse eiusmod consequat Lorem do culpa laborum. Pariatur laboris ullamco occaecat velit incididunt deserunt veniam.",
-      "image": "https://picsum.photos/id/5/300/200"
-    },
-    {
-      "id": 6,
-      "title": "Tempor veniam nostrud aute duis.",
-      "content": "Do cillum aliqua dolore id minim. In aliquip ut ipsum non veniam fugiat mollit dolor do commodo nostrud deserunt amet. Dolor enim id magna mollit laboris nostrud reprehenderit magna et id do.",
-      "image": "https://picsum.photos/id/6/300/200"
-    },
-    {
-      "id": 7,
-      "title": "Ex id tempor ipsum velit laboris incididunt adipisicing culpa irure nisi esse irure aliqua dolore.",
-      "content": "Proident culpa velit consequat ex excepteur. Cupidatat labore non aliquip aliquip magna cillum laborum non quis non mollit qui irure. Incididunt minim ipsum consequat ex ea sint eiusmod nisi excepteur officia irure proident exercitation.",
-      "image": "https://picsum.photos/id/7/300/200"
-    },
-    {
-      "id": 8,
-      "title": "Id enim in aliquip id adipisicing sit.",
-      "content": "Ea Lorem eiusmod minim adipisicing laborum voluptate eu et. Consequat consequat pariatur Lorem reprehenderit irure irure nostrud. Nostrud aliquip nisi consequat magna amet et labore do occaecat laborum labore do sit duis. Ea exercitation fugiat occaecat aliquip aute incididunt magna in laboris Lorem. Deserunt consequat duis et voluptate.",
-      "image": "https://picsum.photos/id/8/300/200"
-    },
-    {
-      "id": 9,
-      "title": "Voluptate amet reprehenderit tempor elit.",
-      "content": "Laboris deserunt minim officia et esse labore consequat veniam ea tempor. Do proident mollit amet laborum ad. Enim laboris reprehenderit occaecat nisi veniam qui pariatur elit laborum. Et duis eiusmod voluptate ipsum enim officia ad consectetur elit quis excepteur anim ullamco sint. Incididunt cupidatat sint enim eu pariatur exercitation irure laboris.",
-      "image": "https://picsum.photos/id/9/300/200"
-    },
-    {
-      "id": 10,
-      "title": "Id occaecat Lorem fugiat velit esse est duis ad culpa reprehenderit duis dolore.",
-      "content": "Aliqua dolore velit esse eiusmod minim cupidatat cupidatat sunt in velit. Pariatur ullamco veniam dolore dolore aute fugiat veniam Lorem sit. Proident veniam consectetur eu consequat ea cillum eu pariatur culpa eu nulla et minim. Ea exercitation sit quis aliqua magna laborum Lorem nisi sunt. Irure exercitation tempor amet quis et nisi dolor.",
-      "image": "https://picsum.photos/id/10/300/200"
-    },
-    {
-      "id": 11,
-      "title": "Cupidatat velit consectetur dolor mollit cillum mollit magna ad.",
-      "content": "Proident nisi pariatur sint duis ad magna sunt nulla adipisicing irure eiusmod nostrud pariatur. Exercitation sint culpa occaecat et aliquip qui elit veniam laboris aliqua officia incididunt ea voluptate. Qui sit anim qui veniam non Lorem duis nisi ullamco incididunt ullamco proident. Adipisicing ea reprehenderit enim est labore voluptate fugiat eiusmod. Irure incididunt qui labore irure ex. Cupidatat magna nulla nulla excepteur ad pariatur occaecat ut eiusmod anim veniam proident.",
-      "image": "https://picsum.photos/id/11/300/200"
     }
   ],
   "users": [
     {
-      "email": "a@a.a",
-      "password": "$2a$10$LoRf.M0X5NyMbum9PUdSBupeproNu21CS8HD8rcAu4jvk2LTqz9me",
-      "name": "Olivier113",
-      "id": "9_5YK2b",
-      "avatarUrl": "https://cms-screen-contents.s3.us-east-2.amazonaws.com/40df1a7f-40d7-46c8-89bd-90bd2316c919.png"
+      "email": "admin@admin.ru",
+      "password": "$2a$10$S82bgB3U.Y0Q2nZdP.3/CeHrL0gsGgzT8Mbz82RvuFf9NZ.IBiLoq",
+      "tname": "Olivier",
+      "avatarUrl": "https://cms-screen-contents.s3.us-east-2.amazonaws.com/e42f4851-fba6-4fb7-96ca-28b1e01b7052.png",
+      "id": "9RvxEOn",
+      "name": "qwe"
     }
   ]
 }
