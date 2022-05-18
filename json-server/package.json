@@ -5,5 +5,8 @@
   "devDependencies": {
     "json-server": "^0.17.0",
     "json-server-auth": "^2.1.0"
+  },
+  "scripts": {
+    "start": "json-server --watch db.json --p 3010 --m ./cors.js  ./node_modules/json-server-auth"
   }
 }
